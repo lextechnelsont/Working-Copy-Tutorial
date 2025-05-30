@@ -12,6 +12,8 @@ struct ContentView: View {
             Text("This is a test of how to use Working Copy.")
                         Text("Need pro version of Working Copy")
             Text("Need Swift Playground")
+            // Added comment
         }
     }
 }
+
