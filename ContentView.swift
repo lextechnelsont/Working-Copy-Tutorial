@@ -13,6 +13,7 @@ struct ContentView: View {
                         Text("Need pro version of Working Copy")
             Text("Need Swift Playground")
             // Added comment
+            // Removed comment
         }
     }
 }

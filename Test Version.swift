@@ -1,3 +1,4 @@
 import SwiftUI
 
-Test version
+// Test version
+// Looks like there is a synching issue when you try and force a refresh
