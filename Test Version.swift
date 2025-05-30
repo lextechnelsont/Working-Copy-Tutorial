@@ -4,3 +4,4 @@ import SwiftUI
 // Looks like there is a synching issue when you try and force a refresh
 // Looks like there's a sync inssue
 
+// It sodesn't look like changes are saved when you're offline?
