@@ -10,11 +10,17 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("This is a test of how to use Working Copy.")
-                        Text("Need pro version of Working Copy")
+            Text("Need pro version of Working Copy")
             Text("Need Swift Playground")
             // Added comment
             // Removed comment
             // Looks like changes are not working... =(
+
+            Button("Red Button") {}
+                .buttonStyle(RedButtonStyle())
+
+            Button("Green Button") {}
+                .buttonStyle(GreenButtonStyle())
         }
     }
 }
