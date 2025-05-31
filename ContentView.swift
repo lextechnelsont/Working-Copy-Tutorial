@@ -30,6 +30,8 @@ struct ContentView: View {
 
             Button("Dirty Bright Green") {}
                 .buttonStyle(GreenButtonStyle())
+            Spacer()
+            BrowserBarView()
         }
     }
 }
