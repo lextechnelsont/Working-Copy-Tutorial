@@ -5,3 +5,5 @@ import SwiftUI
 // Looks like there's a sync inssue
 
 // It sodesn't look like changes are saved when you're offline?
+// Maybe you have to touch a file in WC to trigger sync?
+// Looks like sync in WC blows out older changes in Swift Playground
