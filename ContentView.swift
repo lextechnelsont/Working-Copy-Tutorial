@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showAlert = false
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,8 +18,15 @@ struct ContentView: View {
             // Removed comment
             // Looks like changes are not working... =(
 
-            Button("Cherry Red") {}
+            Button("Cherry Red") {
+                showAlert = true
+            }
                 .buttonStyle(RedButtonStyle())
+                .alert("Alert!", isPresented: $showAlert) {
+                    Button("OK", role: .cancel) { }
+                } message: {
+                    Text("This is an alert.")
+                }
 
             Button("Bright Green") {}
                 .buttonStyle(GreenButtonStyle())
