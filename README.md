@@ -1,5 +1,5 @@
 # Working-Copy-Tutorial
-THIS IS THE wc-test branch
+THIS IS THE mac-sp branch
 
 A test of Working Copy with Swift Playground
 
@@ -16,3 +16,4 @@ OK, we want to make sure things sync up first. So the rule is.
 4. Yes, doing stuff in Swift Playground doesn't look like it saves
 5. Looks like you have to wait a while for content to change
 6. Sometimes up to a minute or two
+
