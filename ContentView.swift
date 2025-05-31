@@ -16,10 +16,10 @@ struct ContentView: View {
             // Removed comment
             // Looks like changes are not working... =(
 
-            Button("Red Button") {}
+            Button("Cherry Red") {}
                 .buttonStyle(RedButtonStyle())
 
-            Button("Green Button") {}
+            Button("Bright Green") {}
                 .buttonStyle(GreenButtonStyle())
         }
     }
