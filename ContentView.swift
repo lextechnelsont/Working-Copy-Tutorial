@@ -28,7 +28,7 @@ struct ContentView: View {
                     Text("This is an alert.")
                 }
 
-            Button("Bright Green") {}
+            Button("Dirty Bright Green") {}
                 .buttonStyle(GreenButtonStyle())
         }
     }
