@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Working Copy Tutorial",
+    name: "Working Copy Tutorial v1",
     platforms: [
         .iOS("18.1")
     ],
     products: [
         .iOSApplication(
-            name: "Working Copy Tutorial",
+            name: "Working Copy Tutorial v1",
             targets: ["AppModule"],
             displayVersion: "1.0",
             bundleVersion: "1",
