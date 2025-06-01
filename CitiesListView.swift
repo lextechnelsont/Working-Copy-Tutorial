@@ -12,10 +12,12 @@ struct CitiesListView: View {
     ]
 
     var body: some View {
-        List(cities, id: \.self) { city in
-            Text(city)
+        VStack {
+            List(cities, id: \.self) { city in
+                Text(city)
+            }
+            Text("huh")
         }
-        .navigationTitle("Cities")
     }
 }
 
@@ -24,3 +26,4 @@ struct CitiesListView_Previews: PreviewProvider {
         CitiesListView()
     }
 }
+// 4 rebase
