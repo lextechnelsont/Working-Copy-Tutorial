@@ -16,3 +16,5 @@ OK, we want to make sure things sync up first. So the rule is.
 4. Yes, doing stuff in Swift Playground doesn't look like it saves
 5. Looks like you have to wait a while for content to change
 6. Sometimes up to a min or 2
+
+Test 2 if you nuke file bad things happen, but you can recover with creating new file and merging
