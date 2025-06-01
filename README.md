@@ -18,3 +18,5 @@ OK, we want to make sure things sync up first. So the rule is.
 6. Sometimes up to a min or 2
 
 Test 2 if you nuke file bad things happen, but you can recover with creating new file and merging
+
+Push test - Troubleshooting - if Codex file not found add new swift file, then delete if it resolves issue 
