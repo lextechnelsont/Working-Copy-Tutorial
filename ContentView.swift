@@ -4,7 +4,8 @@ struct ContentView: View {
     @State private var showAlert = false
 
     var body: some View {
-        VStack {
+        ScrollView {
+            VStack(alignment: .center) {
             Text("Working Copy Tutorial")
                 .font(.title)
             HStack {
@@ -32,6 +33,7 @@ struct ContentView: View {
                 .buttonStyle(GreenButtonStyle())
             Spacer()
             BrowserBarView()
+            CitiesListView()
         }
     }
 }
