@@ -21,7 +21,9 @@ Test 2 if you nuke file bad things happen, but you can recover with creating new
 
 Push test - Troubleshooting - if Codex file not found add new swift file, then delete if it resolves issue 
 
-Test - 6:16 pm Sunday - does this show?
 
-OK so this syncs all items? 9:35 pm, June 1
+Syncs between multiple devices
 
+ADD TO DRIVE
+1. It's better to open via files vs. Playground
+2. If it's asking for different versions generally you want to save the latest version (which should be up to date). But ONLY do this if you are sure you won't break Git.
